@@ -5,12 +5,13 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "test": "ng test",
+    "deploy": "gh-pages -d dist",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
-  "dependencies": {
+  "homepage":"https://teabag98.github.io/Goals/", 
+  "dependencies": { 
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
     "@angular/compiler": "~7.2.0",
@@ -21,6 +22,7 @@
     "@angular/router": "~7.2.0",
     "angular-bootstrap-md": "^7.4.3",
     "core-js": "^2.5.4",
+    "gh-pages": "^2.0.1",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
@@ -45,5 +47,9 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
-  }
+  },
+  "description": "># Quotes",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
