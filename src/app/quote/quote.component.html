@@ -1,6 +1,6 @@
 <div class="row quote">
-  <div *ngFor='let quote of quotes; let i =index;' class="col-md-4">
-<div class="card">
+  <div *ngFor='let quote of quotes; let i =index;' >
+<div class="card" class="col-md-4">
   <h3>{{quote.name}}</h3>
   <hr>
   <br>
@@ -10,8 +10,8 @@
 <app-quote-details *ngIf="quote.showDescription" [quote] = 'quote' (isComplete)= 'completeGoal($event,i)'></app-quote-details>
   <span><button (click)='quote.id=quote.id+1'>upvote</button>{{quote.id}} <button (click)='quote.downVote=quote.downVote+1'>downvote</button>{{quote.downVote}} </span>
 </div>
-</div>
-  </div>
+
+
   
   <div class="row card">
     <div class="col-md-2"></div>
@@ -20,5 +20,6 @@
        </div>
     <div class="col-md-2"></div>
   </div>
-
+  </div>
+  </div>
 
