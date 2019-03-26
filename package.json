@@ -5,12 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "gh-pages -d dist",
+    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
-  "homepage":"https://teabag98.github.io/Goals/", 
   "dependencies": { 
     "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
