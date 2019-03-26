@@ -12,6 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { QuoteDirective } from './quote.directive';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
+import { QuoteformComponent } from './quoteform/quoteform.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { QuoteDetailsComponent } from './quote-details/quote-details.component';
     ContactComponent,
     QuoteDirective,
     QuoteDetailsComponent,
+    QuoteformComponent,
 
   
   
