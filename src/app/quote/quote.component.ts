@@ -13,9 +13,18 @@ export class QuoteComponent implements OnInit {
     new Quote(0,0, "A good programmer is someone who always looks both ways before crossing a one-way street", "written by Doug Linder"),
     new Quote(0,0,"What i cant do i dont understand", "teabag98")
   ]
+
+  addNewQuote(quote){
+    let quoteLength = this.quotes.length;
+    quote.id=quoteLength+1;
+    quote.completeDate = new Date(quote.completeDate)
+    this.quotes.push(quote)
+
+}
   toogleDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
 }
+
 
 completeGoal(isComplete,index){
   if (isComplete){
