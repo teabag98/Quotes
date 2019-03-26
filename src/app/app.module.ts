@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,6 @@ import { AboutComponent } from './about/about.component';
 import { QuoteComponent } from './quote/quote.component';
 import { ContactComponent } from './contact/contact.component';
 import { QuoteDirective } from './quote.directive';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { QuoteformComponent } from './quoteform/quoteform.component';
 
@@ -33,7 +33,8 @@ import { QuoteformComponent } from './quoteform/quoteform.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule 
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

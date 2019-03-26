@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Quote } from '../quote';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
