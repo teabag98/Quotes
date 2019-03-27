@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
   quotes = [
     new Quote(0,0, "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization" ,"written by geo davio"),
     new Quote(0,0, "A good programmer is someone who always looks both ways before crossing a one-way street", "written by Doug Linder"),
-    new Quote(0,0,"What i cant do i dont understand", "teabag98")
+    new Quote(0,0,"Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live" ,"teabag98")
   ]
 
   addNewQuote(quote){

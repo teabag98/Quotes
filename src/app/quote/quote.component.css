@@ -7,4 +7,14 @@
 
 .card{
   box-shadow: 0 0 15px black;
+  width: 2oem;
+}
+button{
+  color: white;
+  border-radius: 2em;
+  background-color:#556B2F;
+
+}
+body{
+  background-image:url("https://as2.ftcdn.net/jpg/00/96/72/27/500_F_96722757_rbzgRNuldTNzzWFtXAwpyRLKMikGtLVb.jpg");
 }
