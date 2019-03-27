@@ -1,7 +1,7 @@
 <div class="row quote">
   <div *ngFor='let quote of quotes; let i =index;' class="col-md-4">
 <div class="card" >
-  <h4>{{quote.description}}</h4>
+  <h4>{{quote.name}}</h4>
   <hr>
   <br>
   <button (click)='toogleDetails(i)' class="btn btn-outline-success">show details</button>
