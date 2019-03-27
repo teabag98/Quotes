@@ -1,7 +1,7 @@
 # Quotes
 This is an application that enables users to write and submit quotes, upvote or downvote a quote
 
-##author
+## author
 *Eric king'oo
 ## Development server
 Run this site on the link below,
